@@ -1,0 +1,396 @@
+*
+	{
+		margin: 0px;
+		padding: 0px;
+		box-sizing: border-box;
+		font-family: "Montserrat", sans-serif;
+	}
+	.Jdoe_Temp_body
+	{
+
+		width: 100%;
+		display: flex;
+		background-color: #010101;
+		/*background-color: pink;*/
+	}
+	.Jdoe_first_column
+	{
+		width: 120px;
+		height: 100%;
+		position: fixed;
+		background-color: #222;
+	}
+	.Jdoe_Second_column
+	{
+		width: 90%;
+		margin: auto;
+		margin-left:120px;
+		/*background-color: red;*/
+	}
+	.Jdoe_heading_text
+	{
+        text-align: center;
+	}
+	.Jdoe_heading_text1
+	{
+		font-size: 64px;
+		font-weight: 200;
+		color: #FFF;
+		margin-top:50px;
+		/*border: 1px solid red;*/
+
+	}
+	.Jdoe_heading_text2
+	{
+		color: #FFF;
+		margin-top: 30px;
+	}
+	.Jdoe_pick
+	{
+		text-align: center;
+	}
+	.Jdoe_pick1
+	{
+		width:85%;
+		height: auto;
+		/*margin: 0 10%;*/
+	}
+	.Jdoe_about
+	{
+		/*margin-bottom:20px;*/
+		margin: 50px 8%;
+
+	}
+	.Jdoe_about_Head
+	{
+		color: #FFF;
+		font-size: 30px;
+		font-weight: 200;
+		
+		margin-bottom: 15px;
+	}
+	.Jdoe_line
+	{
+		width: 200px;
+		color:  #8F8F8F;
+		margin-bottom: 15px;
+		opacity: 0.60;
+	}
+	.Jdoe_about_Head_text
+	{
+		color:#757575;
+		line-height:1.3em;
+	}
+	.Jdoe_price
+	{
+		color: #F1F1F1;
+		font-size: 24px;
+		font-weight: 200;
+		
+	}
+	.Jdoe_price_part
+	{
+		margin: 25px 8%;
+	}
+	.Jdoe_price_Whole_div
+	{
+		/*width: 100%;*/
+		/*border: 1px solid red;*/
+		margin: 0 8%;
+		display: flex;
+		justify-content: space-between;
+	}
+	.Jdoe_price1
+	{
+		width: 49%;
+		/*border: 1px solid yellow;*/
+		opacity: 0.6;
+	}
+	.Jdoe_price1:hover
+	{
+		opacity: 1;
+	}
+	.Jdoe_price1_basic
+	{
+		color:#FFF;
+		text-align: center; 
+		font-size: 24px;
+		padding: 32px 16px;
+		background-color: #616161;
+	}
+	.Jdoe_price2_basic
+	{
+		color:#000;
+		text-align: center;
+		padding: 16px 18px;
+		background-color: #FFF;
+		border-bottom: 1px solid #bdbdbd; 
+	}
+	.Jdoe_price3_basic
+	{
+		/*color:#000;*/
+		text-align: center;
+		background-color: #FFF;
+		border-bottom: 1px solid #bdbdbd; 
+		padding: 20px 20px;
+	}
+	.Jdoe_price3_basic_cost
+	{
+		color: #000;
+		font-size: 30px;
+		font-weight: 200;
+		margin-top: 3px;
+
+	}
+	.Jdoe_price3_basic_month
+	{
+		font-size: 15px;
+		margin-top: 10px;
+	}
+	.Jdoe_price4_basic
+	{
+       text-align: center;
+       padding: 35px 16px;
+       background-color: #F1F1F1;
+	}
+	.Jdoe_price4_basic_Signup
+	{
+		text-decoration: none;
+		background-color:#FFF;
+		padding: 14px 23px;
+		color: #000;
+	}
+	.Jdoe_price4_basic_Signup:hover
+	{
+		background-color: #000;
+		color: #FFF;
+	}
+	.Jdoe_reputation_dividion
+	{
+		margin: 30px 8%;
+
+	}
+	.Jdoe_Chris_maindiv
+	{
+		margin-top: 25px;
+		display: flex;
+	}
+	.Jdoe_Chris_maindiv_image
+	{
+		/*border: 1px solid yellow;*/
+		border-radius: 50%;
+	}
+	
+    .Jdoe_Chris_maindiv_text
+    {
+    	margin-left: 10px;
+    	margin-bottom: 5px;
+
+
+    }
+	.Jdoe_Chris_maindiv_text1
+	{
+		color: #757575;
+		font-size: 18px;
+		margin-top: 10px;
+	}
+	.Jdoe_Chris_maindiv_text2
+	{
+		color: #757575;
+		font-size: 15px;
+	}
+	.Jdoe_Chris_maindiv_text3
+	{
+		color: #757575;
+		font-size: 16px;
+		margin-top: 15px;
+	}
+	.Jdoe_myphoto_content
+	{
+		margin: 30px 8%;
+	}
+	.Jdoe_Wholephoto_div
+	{
+		display: flex;
+		justify-content: space-between;
+
+	}
+	.Jdoe_photo_column1
+	{
+		width: 49%;
+	}
+	.Jdoe_photo_column1_image
+	{
+		margin-bottom: 10px;
+	}
+	
+	.Jdoe_contacts
+	{
+		margin-bottom: 20px;
+		display: flex;
+	}
+	.Jdoe_color
+	{
+		color: #FFF;
+	}
+	.Jdoe_contacts_text
+	{
+		color: #757575;
+		margin:15px 0px 0px 24px; 
+	}
+	.Jdoe_contacts_text2
+	{
+		color: #757575;
+		margin:15px 0px 0px 15px; 
+	}
+	.Jdoe_message
+	{
+		color: #757575;
+		margin-top: 35px;
+		margin-bottom: 15px;
+	}
+	.Jdoe_inputbox
+	{
+       width: 100%;
+       padding: 16px 10px;
+       font-size: 16px;
+       margin-bottom: 15px;
+
+	}
+	.Jdoe_message_button
+	{
+		text-decoration: none;
+		background-color: #F1F1F1;
+		color: #000;
+		padding: 14px 24px;
+		
+	}
+	.Jdoe_message_button:hover
+	{
+       background-color: #bdbdbd;
+	}
+	.Jdoe_message_buttondiv
+	{
+		/*border: 2px solid red;*/
+		/*margin-top: 10px;*/
+		padding: 14px 0px;
+	}
+	.Jdoe_home
+	{
+		text-align: center;
+		padding-top: 12px;
+		padding-bottom:25px;
+		background-color: #000000;
+	}
+	.Jdoe_home_text
+	{
+		color: #FFF;
+		/*text-decoration: none;*/
+		font-size: 13px;
+		margin-top: 14px;
+	}
+	.Jdoe_home_anchor
+	{
+		text-decoration: none;
+	}
+	.Jdoe_About
+	{
+		text-align: center;
+		padding-top: 12px;
+		padding-bottom:25px;
+	}
+	.Jdoe_About:hover
+	{
+		background-color: #000;
+	}
+	.Jdoe_responsive_nav
+	{
+		display: none;
+	}
+	 @media (max-width:600px)
+	 {
+	 	.Jdoe_first_column
+	 	{
+	 		display: none;
+	 	}
+	 	.Jdoe_Second_column
+	 	{
+	 		margin-left: 0px;
+	 		width: 100%;
+	 	}
+	 	.Jdoe_responsive_nav
+	 	{
+           display: block;
+           width: 100%;
+           height: 33px;
+           position: fixed;
+           background-color:#000;
+           display: flex;
+	 	}
+
+	 	.Jdoe_responsive_nav_home
+	 	{
+	 		width: 25%;
+	 		text-align: center;
+	 		padding-top: 8px;
+	 		
+	 		font-size: 13PX;
+	 	}
+	 	.Jdoe_responsive_nav_home:hover
+	 	{
+          background-color: #bdbdbd;
+          color: #FFF;
+          
+     	}
+	 	.Jdoe_home_anchor_text
+	 	{
+	 		text-decoration: none;
+	 		color: #FFF;
+	 		opacity: 0.8;
+	 	}
+	 	
+	 	
+	 	.Jdoe_price_Whole_div
+	 	{
+	 		display: flex;
+	 		flex-direction: column;
+	 		margin: 0 5%;
+	 	}
+	 	.Jdoe_price1
+	 	{
+	 		width: 100%;
+	 		margin-bottom: 15px;
+	 	}
+	 	.Jdoe_Wholephoto_div
+	 	{
+	 		display: flex;
+	 		flex-direction: column;
+	 	}
+	 	.Jdoe_photo_column1
+	 	{
+	 		width: 100%;
+	 	}
+	 	.Jdoe_about
+	    {
+		  /*margin-bottom:20px;*/
+		  margin: 50px 5%;
+
+	    }
+	    .Jdoe_price_part
+	   {
+		 margin: 25px 5%;
+	   }
+	   .Jdoe_reputation_dividion
+	  {
+		margin: 30px 5%;
+
+	  }
+	   .Jdoe_myphoto_content
+	   {
+		 margin: 30px 5%;
+	   }
+	   .Jdoe_hide
+	   {
+	   	display: none;
+	   }
+	 }
